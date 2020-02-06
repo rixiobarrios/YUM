@@ -11,7 +11,7 @@ Fork and clone this repo. Build out your file structure following MVC and instal
 
 ## Express
 
-Build out an app using Express with routes that you can view in your browser and forms that manipulate your data with full CRUD.
+Build out an app using Express with routes that you can view in your browser and forms that manipulate your data with full CRUD. ***Please add automated tests with Mocha/Chai for any API endpoints that return JSON data, if any***
 
 Your app should have one resource: Restaurants.
 
