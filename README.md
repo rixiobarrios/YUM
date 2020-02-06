@@ -24,7 +24,7 @@ Your app should have one resource: Restaurants.
 | type | String | The type of food the restaurant serves |
 | capacity | Number | The max capacity of the restaurant |
 
-## Bonus 1: Automated tests
+## Bonus 1: Automated Tests
 Look up how to test a non-JSON webpage endpoint. Add testing to your homework using your research! You could also convert your application to an API and add testing to it that way if you prefer. 
 
 ## Bonus 2: Schema Validation
