@@ -3,7 +3,9 @@
 ---
 # YUM!
 
-For Homework you will be writing a node application to practice using Express and Mongoose. Your task: create an app that tracks and stores Restaurants.
+For Homework you will be writing a node application to practice using Express and Mongoose, as well as Mocha/Chai for automated testing. Your task: create an app that tracks and stores Restaurants.
+
+**Due Thursday, 2/13 at 10 am EST**
 
 ## Setup
 
