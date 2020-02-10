@@ -3,7 +3,7 @@
 ---
 # YUM!
 
-For Homework you will be writing a node application to practice using Express and Mongoose, as well as Mocha/Chai for automated testing. Your task: create an app that tracks and stores Restaurants.
+For Homework you will be writing a node application to practice using Express, Mocha, Chai, and Supertest for automated testing. Your task: create an app that tracks and stores Restaurants.
 
 **Due Thursday, 2/13 at 10 am EST**
 
@@ -15,6 +15,8 @@ Fork and clone this repo. Build out your file structure following MVC and instal
 
 Build out an Express API that returns JSON data, with routes that allow you to manipulate your data with full CRUD (i.e., GET, POST, PUT, DELETE). ***You must add automated tests for your API endpoints using Mocha/Chai***.
 
+*** You don't need a Mongo database for this exercise - just hardcode the data like we did with [the candies demo today](https://git.generalassemb.ly/seir-129/express-tdd-exercise/blob/master/controllers/candies.js#L5-L10)***
+
 Your app should have one resource: Restaurants.
 
 | Name | Type | Description |
@@ -23,12 +25,3 @@ Your app should have one resource: Restaurants.
 | owner | String | The name of the owner |
 | type | String | The type of food the restaurant serves |
 | capacity | Number | The max capacity of the restaurant |
-
-
-## Bonus 1: Schema Validation
-
-Review the documentation on [Schemas](http://mongoosejs.com/docs/guide.html) and [Validation](http://mongoosejs.com/docs/validation.html) in Mongoose and add to your schema definition. Are there default values you could set in the schema? Are there properties you could validate (make required, set a min or max for, etc)?
-
-## Bonus 2: Subdocuments
-
-In Mongo, you can create nested resources using [Subdocuments](http://mongoosejs.com/docs/subdocs.html). Add a menu property to your Restaurant schema that contains an array of MenuItem documents.
