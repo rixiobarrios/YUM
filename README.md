@@ -15,7 +15,7 @@ Fork and clone this repo. Build out your file structure following MVC and instal
 
 Build out an Express API that returns JSON data, with routes that allow you to manipulate your data with full CRUD (i.e., GET, POST, PUT, DELETE). ***You must add automated tests for your API endpoints using Mocha/Chai***.
 
-*** You don't need a Mongo database for this exercise - just hardcode the data like we did with [the candies demo today](https://git.generalassemb.ly/seir-129/express-tdd-exercise/blob/master/controllers/candies.js#L5-L10)***
+***You don't need to create a Mongo database for this exercise - just hardcode the data like we did with [the candies demo today](https://git.generalassemb.ly/seir-129/express-tdd-exercise/blob/master/controllers/candies.js#L5-L10)***
 
 Your app should have one resource: Restaurants.
 
