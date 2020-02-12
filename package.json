@@ -1,0 +1,27 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "description": "[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly)",
+    "main": "app.js",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "chai": "^4.2.0",
+        "express": "^4.17.1",
+        "method-override": "^3.0.0",
+        "morgan": "^1.9.1",
+        "nodemon": "^2.0.2",
+        "supertest": "^4.0.2"
+    },
+    "devDependencies": {
+        "mocha": "^7.0.1"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://git.generalassemb.ly/rixiobarrios/YUM.git"
+    },
+    "author": "",
+    "license": "ISC"
+}
